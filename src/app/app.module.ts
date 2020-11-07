@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 @NgModule({
@@ -21,11 +23,15 @@ import {MatInputModule} from '@angular/material/input';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
+    MatIconModule,
+    FlexLayoutModule
 ],
   exports: [
     MatButtonModule,
     MatInputModule,
+    MatIconModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
