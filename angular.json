@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ProjectSimSave"
+    }
+  },
+  "defaultProject": "ProjectSimSave",
+  "cli": {
+    "analytics": "290f87d2-34bd-4b35-9ed7-bc4d18b8c72a"
+  }
 }

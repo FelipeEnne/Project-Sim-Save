@@ -1,0 +1,27 @@
+<div class="mainDivLogin">
+  <div>
+    <img src="../../assets/LogoSimSave.svg" />
+    <div class="box">
+      <div><h1 class="mainTextLogin">Entrar na plataforma</h1></div>
+      <div>
+        <h3 class="mainTextSecLogin">
+          Digite seu e-mail e senha abaixo<br />
+          para entrar na plataforma.
+        </h3>
+      </div>
+      <div>
+        <form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+          <label>
+            <input placeholder="Name" type="text" formControlName="name" />
+          </label>
+
+          <label>
+            <input placeholder="Senha" formControlName="password"/>
+          </label>
+
+					<button type="submit" class="cta" >Entrar</button>					
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
