@@ -1,6 +1,6 @@
 <div class="mainDivLogin">
   <div>
-    <img src="../../assets/LogoSimSave.svg" />
+    <img src="../../assets/LogoSimSaveLogin.svg" />
     <div class="box">
       <div><h1 class="mainTextLogin">Entrar na plataforma</h1></div>
       <div>
@@ -10,16 +10,20 @@
         </h3>
       </div>
       <div>
-        <form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
-          <label>
-            <input placeholder="Name" type="text" formControlName="name" />
-          </label>
+        <form>
 
-          <label>
-            <input placeholder="Senha" formControlName="password"/>
-          </label>
+          <mat-form-field class="inputName">
+            <mat-label>Nome</mat-label>
+            <input matInput placeholder="Coloque seu nome" formControlName="name" >
+          </mat-form-field>
 
-					<button type="submit" class="cta" >Entrar</button>					
+
+          <mat-form-field class="inputName">
+            <mat-label>Senha</mat-label>
+            <input matInput placeholder="Coloque sua senha" formControlName="name" >
+          </mat-form-field>
+
+					<button mat-raised-button color="primary" class="cta" routerLink="../">Entrar</button>					
         </form>
       </div>
     </div>
