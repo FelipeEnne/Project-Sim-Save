@@ -192,10 +192,15 @@
 
   .boxContainer {
     border: none;
-    height: 270px;
+    width: 618px;
+    height: 199px;
     background: transparent linear-gradient(88deg, #397ae1 0%, #addbef 100%) 0%
       0% no-repeat padding-box;
     box-shadow: 0px 4px 8px #1767e526;
+  }
+
+  .signatureBoxMainText {
+    width: 334px;
   }
 }
 
@@ -209,7 +214,7 @@
 .signatureBoxText {
   text-align: center;
   font: normal normal normal 14px/17px Roboto;
-  width: 277px;
+  width: 489px;
   margin: auto;
 }
 
@@ -229,7 +234,6 @@
   font: normal normal bold 26px/17px Roboto;
   color: #b3bdcc;
   align-items: center;
-  margin: auto;
   p {
     padding-top: 15px;
     padding-left: 10px;
@@ -239,7 +243,8 @@
 .emailFooter {
   text-align: center;
   font: normal normal normal 18px/22px Roboto;
-  padding: 36px;
+  width: 330px;
+  padding: 10px 0px;
   color: #b3bdcc;
 }
 
@@ -255,4 +260,24 @@
   .banner {
     display: none;
   }
+
+  .contactUs {
+    margin: auto;
+  }
+
+  .signatureBox {
+    .boxContainer {
+      width: 374px;
+      height: 270px;
+    }
+    .signatureBoxMainText {
+      width: 170px;
+    }
+    .signatureBoxText {
+      width: 277px;
+    }
+  }
+
+  
+  
 }
