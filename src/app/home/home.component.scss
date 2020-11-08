@@ -1,0 +1,283 @@
+.mainDivHome {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 9px #00000026;
+  }
+}
+
+.logoImage {
+  width: 34px;
+  overflow: hidden;
+  img {
+    width: 115px;
+    height: fit-content;
+  }
+}
+
+.navEnterButtom {
+  font: normal normal medium 14px/20px Roboto;
+  color: #2196f3;
+  text-transform: uppercase;
+  width: 124px;
+  height: 36px;
+}
+
+.navRegisterButtom {
+  font: normal normal medium 14px/20px Roboto;
+  background: #1767e5;
+  text-transform: uppercase;
+  width: 124px;
+  height: 36px;
+  margin-left: 15px;
+}
+
+.banner-mobile {
+  display: none;
+}
+
+.banner {
+  display: block;
+  img {
+    width: 100vw;
+  }
+}
+
+.boxContainer {
+  width: 374px;
+  height: 356px;
+  margin: auto;
+  background: #fff 0% 0% no-repeat padding-box;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.urgencyTop {
+  margin: auto;
+  width: 40px;
+  border-radius: 0px 0px 5px 5px;
+  background: #f11516 0% 0% no-repeat padding-box;
+  height: 5px;
+}
+
+.urgencyMainText {
+  font: normal normal bold 28px/17px Roboto;
+  margin: 37px auto;
+  color: #f11516;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.urgencyText {
+  width: 319px;
+  height: 172px;
+  text-align: center;
+  font: normal normal normal 16px/25px Roboto;
+  color: #5d5d5d;
+  margin: auto;
+  overflow: hidden;
+}
+
+.urgencyButton {
+  margin: 26px auto 0px;
+  color: #f11516;
+  text-align: center;
+}
+
+.studentTop {
+  margin: auto;
+  width: 40px;
+  border-radius: 0px 0px 5px 5px;
+  background: #1767e5 0% 0% no-repeat padding-box;
+  height: 5px;
+}
+
+.studentMainText {
+  font: normal normal bold 28px/17px Roboto;
+  margin: 37px auto;
+  color: #1767e5;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.studentText {
+  width: 319px;
+  height: 172px;
+  text-align: center;
+  font: normal normal normal 16px/25px Roboto;
+  color: #5d5d5d;
+  margin: auto;
+  overflow: hidden;
+}
+
+.studentButton {
+  margin: 26px auto 0px;
+  color: #1767e5;
+  text-align: center;
+}
+
+.specialistTop {
+  margin: auto;
+  width: 40px;
+  border-radius: 0px 0px 5px 5px;
+  background: #6b41e9 0% 0% no-repeat padding-box;
+  height: 5px;
+}
+
+.specialistMainText {
+  font: normal normal bold 28px/17px Roboto;
+  margin: 37px auto;
+  color: #6b41e9;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.specialistText {
+  width: 319px;
+  height: 172px;
+  text-align: center;
+  font: normal normal normal 16px/25px Roboto;
+  color: #5d5d5d;
+  margin: auto;
+  overflow: hidden;
+}
+
+.specialistButton {
+  margin: 26px auto 0px;
+  color: #6b41e9;
+  text-align: center;
+}
+
+.specialist2Top {
+  margin: auto;
+  width: 40px;
+  border-radius: 0px 0px 5px 5px;
+  background: #35db93 0% 0% no-repeat padding-box;
+  height: 5px;
+}
+
+.specialist2MainText {
+  font: normal normal bold 28px/17px Roboto;
+  margin: 37px auto;
+  color: #35db93;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.specialist2Text {
+  width: 319px;
+  height: 172px;
+  text-align: center;
+  font: normal normal normal 16px/25px Roboto;
+  color: #5d5d5d;
+  margin: auto;
+  overflow: hidden;
+}
+
+.specialist2Button {
+  margin: 26px auto 0px;
+  color: #35db93;
+  text-align: center;
+}
+
+.signatureBox {
+  background: linear-gradient(0deg, #f6f6f9 50%, #addbef 50%);
+  height: 320px;
+  color: #f6f6f9;
+  padding-top: 25px;
+
+  .boxContainer {
+    border: none;
+    width: 618px;
+    height: 199px;
+    background: transparent linear-gradient(88deg, #397ae1 0%, #addbef 100%) 0%
+      0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #1767e526;
+  }
+
+  .signatureBoxMainText {
+    width: 334px;
+  }
+}
+
+.signatureBoxMainText {
+  font: normal normal bold 32px/32px Roboto;
+  width: 170px;
+  margin: 20px auto 0px;
+  padding: 25px;
+}
+
+.signatureBoxText {
+  text-align: center;
+  font: normal normal normal 14px/17px Roboto;
+  width: 489px;
+  margin: auto;
+}
+
+.signatureBoxButton {
+  margin: 15px auto 0px;
+  color: #1767e5;
+  text-align: center;
+
+  .signatureBoxButtonColor {
+    background: #ffffff;
+  }
+}
+
+.contactUs {
+  width: 212px;
+  display: flex;
+  font: normal normal bold 26px/17px Roboto;
+  color: #b3bdcc;
+  align-items: center;
+  p {
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+}
+
+.emailFooter {
+  text-align: center;
+  font: normal normal normal 18px/22px Roboto;
+  width: 330px;
+  padding: 10px 0px;
+  color: #b3bdcc;
+}
+
+@media screen and (max-width: 600px) {
+  .banner-mobile {
+    display: block;
+
+    img {
+      width: 100vw;
+    }
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .contactUs {
+    margin: auto;
+  }
+
+  .signatureBox {
+    .boxContainer {
+      width: 374px;
+      height: 270px;
+    }
+    .signatureBoxMainText {
+      width: 170px;
+    }
+    .signatureBoxText {
+      width: 277px;
+    }
+  }
+
+  
+  
+}

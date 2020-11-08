@@ -1,9 +1,5 @@
-::ng-deep body {
-  height: 95%;
-  background: linear-gradient(0deg, #f6f6f9 50%, #1767e5 50%);
-}
-
 .mainDivLogin {
+  background: linear-gradient(0deg, #f6f6f9 50%, #1767e5 50%);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -39,44 +35,19 @@
   width: 232px;
   height: 37px;
   margin: auto;
-  font: var(--unnamed-font-style-normal) normal
-    var(--unnamed-font-weight-normal) var(--unnamed-font-size-16) / 18px
-    var(--unnamed-font-family-roboto);
-  letter-spacing: var(--unnamed-character-spacing-0);
   text-align: center;
   font: normal normal normal 16px/18px Roboto;
   letter-spacing: 0px;
   color: #5d5d5d;
 }
 
-label {
-    display: block;
-    
-    input {
-        display: block;
-        width: 320px;
-        height: 28px;
-        margin: 15px auto;
-        border: none;
-        border-bottom: #1767E5 2px solid;
-
-        &:focus {
-            border: none;
-        }
-    }
-
+.inputName {
+  width: 320px;
 }
 
 .cta {
-    background: #1767E5 0% 0% no-repeat padding-box;
-    border: none;
-    box-shadow: 0px 2px 2px #0000003D;
-    color: white;
-
+    background: #1767E5;
     width: 95px;
-    height: 36px;
     text-transform: uppercase;
-    border-radius: 4px;
-    cursor: pointer;
     margin: 15px;
 }
